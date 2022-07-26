@@ -1,0 +1,35 @@
+body {
+    margin: 40px;
+}
+
+.container {
+    display: grid;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+}
+
+.hide {
+    display: none;
+}
+
+.box {
+    background-color: #999;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    min-height: 100px;
+    font-size: 150%;
+}
+
+.wall {
+    background-color: #000;
+}
+
+.player-dead {
+    color: #ff0000
+}
+
+.player-self {
+    color: #0004ff
+}

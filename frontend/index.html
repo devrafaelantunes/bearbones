@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <div id="name-prompt">
+            Name: <input id="player-name" type="text"/>
+            <button type="submit" onClick="joinGame()">Join</button>
+        </div>
+
+        <div id="controls" class="hide">
+            <button type="submit" onClick="walk('left')">Left</button>
+            <button type="submit" onClick="walk('right')">Right</button>
+            <button type="submit" onClick="walk('up')">Up</button>
+            <button type="submit" onClick="walk('down')">Down</button>
+            <button type="submit" onClick="attack()">Attack!</button>
+        </div>
+
+        <div id="board" class="container hide">
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
